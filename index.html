@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>مفاجأة رأس السنة</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Forever Love</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>كل سنة وإنتِ بخير يا عمري 💖</h1>
-    <p class="message">أنتِ أجمل ما صار معي، وهاي السنة رح تكون أحلى لأنك فيها</p>
-    <button onclick="startSurprise()">اضغطي هون 🎆</button>
-    <div id="fireworks"></div>
-  </div>
-  <script src="script.js"></script>
+    <div class="black-bg">
+        <button class="lang-toggle" onclick="toggleLanguage()">🌐 English / عربي</button>
+
+        <div class="heart-wrapper">
+            <div class="rotating-text" id="rotatingText">I LOVE YOU • أحبك • I LOVE YOU • أحبك • </div>
+            <div class="heart-icon">❤️</div>
+        </div>
+
+        <div id="loveMessage" class="message-content en">
+            I love you so, so much, and I’m crazy about you. I know I’ve been falling short lately, but I love you and I want to keep loving you forever, spending all my years, days, and my entire life with you. I love your eyes, your coziness, your success, and everything about you. Everything in you is stunning in a very special and beautiful way.
+        </div>
+
+        <div class="lifeline-container">
+            <div class="date-label">2003</div>
+            <div class="line gray-line"></div>
+            <div class="date-label highlight">17/10/2024</div>
+            <div class="line color-line"></div>
+            <div class="date-label">Today</div>
+        </div>
+
+        <div class="start-date">17/10/2024 ✨ Since we started</div>
+        
+        <button class="celebrate-btn" onclick="celebrate()">اضغطي هنا لتري حياتي معك ✨</button>
+        <div id="fireworks-container"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
