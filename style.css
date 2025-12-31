@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to top, #000428, #004e92);
+  color: white;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.message {
+  animation: fadeIn 3s ease-in-out;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
